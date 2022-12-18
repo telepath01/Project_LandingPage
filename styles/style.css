@@ -187,3 +187,7 @@ li {
 }
 
 /* Footer for index.html */
+.footer {
+  display: flex;
+  justify-content: center;
+}
