@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background: #3882f6;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 4px 2px;
+}
+li {
+  list-style: none;
+}
+
+/* Section one of index.html */
+.section01,
+.footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+.section03 {
+  background-color: #e5e7eb;
+}
+
+.section01_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header_logo {
+  display: flex;
+  height: auto;
+  width: 150px;
+}
+.header_links {
+  display: flex;
+  gap: 20px;
+  margin-right: 50px;
+}
+
+.container_title {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.container_paragraph {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 420px;
+}
+.section01_title {
+  display: flex;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.section01_paragraph {
+  display: flex;
+  font-size: 18px;
+}
+
+.sectioin01_button {
+  border-radius: 8px;
+}
+.section01_image {
+  display: flex;
+  height: auto;
+  width: 400px;
+}
+
+/* Section 2 of index.html */
+.section02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section02_title {
+  display: flex;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.section02_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list_image {
+  display: flex;
+  height: auto;
+  width: 200px;
+}
+.section02_item {
+  display: flex;
+}
