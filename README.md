@@ -1,2 +1,5 @@
 # Project_LandingPage
- Landing Page
+
+Landing Page
+
+This project is required for The Odin Project
