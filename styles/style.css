@@ -119,3 +119,71 @@ li {
   padding: 10px;
   margin-bottom: 100px;
 }
+
+/* Section 03 of index.html */
+.section03 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quoat {
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 700px;
+  color: #1f2937;
+  margin-top: 100px;
+}
+.quoat_author {
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  align-self: flex-end;
+  padding: 0;
+  margin-right: 600px;
+  margin-bottom: 100px;
+}
+
+/* Section 4 of index.html */
+
+.section04 {
+  display: flex;
+  justify-content: center;
+}
+.section04-container {
+  background-color: #3882f6;
+  margin: 100px;
+  border-radius: 12px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: white;
+  margin-left: 50px;
+}
+.section04_title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.signup_sentence {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.section04_button {
+  margin-right: 50px;
+  border-radius: 8px;
+  border-color: white;
+}
+
+/* Footer for index.html */
