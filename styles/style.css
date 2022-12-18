@@ -97,16 +97,25 @@ li {
   color: #1f2937;
 }
 
-.section02_list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .list_image {
   display: flex;
-  height: auto;
+  height: 200px;
   width: 200px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #3882f6;
 }
-.section02_item {
+
+.container-info {
   display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.section02_text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 150px;
+  padding: 10px;
+  margin-bottom: 100px;
 }
